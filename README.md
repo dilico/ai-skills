@@ -20,6 +20,7 @@ If the repository being worked on has **`AGENTS.md`**, **`RULES.md`**, a `rules/
 | Security review only | `core-engineer` + `security-review` |
 | Refactor | `core-engineer` + `refactor` |
 | Explanation or teaching | `core-engineer` + `explainer` |
+| Commit message generation | `core-engineer` + `commit-helper` |
 | Rust implementation | `core-engineer` + `rust-core` |
 | Rust detailed review or public API design | `core-engineer` + `rust-core` + `rust-guidelines` |
 
@@ -32,6 +33,7 @@ ai-skills/
 ├── README.md
 ├── skills/
 │   ├── code-review/SKILL.md
+│   ├── commit-helper/SKILL.md
 │   ├── core-engineer/SKILL.md
 │   ├── explainer/SKILL.md
 │   ├── refactor/SKILL.md
@@ -46,6 +48,10 @@ ai-skills/
 **Rust guidelines** are synced from Microsoft's repository. Run `./update-guidelines.sh` from the `rust-guidelines/` directory to refresh. After syncing, check for new, removed, or renamed sections and update `SKILL.md` accordingly.
 
 ## Skills
+
+### commit-helper
+
+Generate commit messages from git diffs following conventional commits. Use when asked to create, improve, or validate commit messages—provides format guidelines, type validation, and output recommendations.
 
 ### core-engineer
 
